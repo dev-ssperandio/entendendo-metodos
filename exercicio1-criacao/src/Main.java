@@ -1,0 +1,26 @@
+/*
+ * Classe pricipal dos exercícios da aula 1 de métodos.
+ */
+public class Main {
+    public static void main(String[] args) throws Exception {
+        
+        //Calculadora
+        System.out.println("Execício calculadora");
+        Calculadora.soma(3, 6);
+        Calculadora.subtracao(9, 1.8);
+        Calculadora.multiplicação(7, 8);
+        Calculadora.divisao(5, 2.5);
+        
+        //Mensagem
+        System.out.println("Execício mensagem");
+        Mensagem.obterMensagem(9);
+        Mensagem.obterMensagem(14);
+        Mensagem.obterMensagem(1);
+        
+        //Empréstimo
+        System.out.println("Execício empréstimo");
+        Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
+        Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
+        Emprestimo.calcular(1000, 5);
+    }
+}
